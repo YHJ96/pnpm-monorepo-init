@@ -1,0 +1,9 @@
+{
+  "name": "my-monorepo-backend",
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
+  "dependencies": {
+    "my-monorepo-shared": "workspace:*"
+  }
+}

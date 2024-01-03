@@ -1,0 +1,15 @@
+{
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "description": "monorepo-practice",
+  "author": "YHJ96",
+  "license": "MIT",
+  "scripts": {
+    "backend": "pnpm -F my-monorepo-backend dev",
+    "frontend": "pnpm -F my-monorepo-frontend dev",
+    "dev": "pnpm -r dev"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

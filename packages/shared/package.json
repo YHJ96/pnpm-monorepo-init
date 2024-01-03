@@ -1,0 +1,6 @@
+{
+  "name": "my-monorepo-shared",
+  "scripts": {
+    "build": "tsc"
+  }
+}
